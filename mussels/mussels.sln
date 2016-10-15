@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{24E47DAC-7D86-E560-3215-C7587F95ACB0}") = "mussels", "Assembly-CSharp.csproj", "{A859E341-D97C-F5AF-A40B-AFC18ABE2AF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A859E341-D97C-F5AF-A40B-AFC18ABE2AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859E341-D97C-F5AF-A40B-AFC18ABE2AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859E341-D97C-F5AF-A40B-AFC18ABE2AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859E341-D97C-F5AF-A40B-AFC18ABE2AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
