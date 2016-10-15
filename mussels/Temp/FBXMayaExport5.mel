@@ -1,8 +1,8 @@
 print "Starting maya loading and fbx conversion \n";
 	
-if (`file -q -exists "/Users/chuck/Desktop/DT FALL 2016/BUILDING WORLD/pot-of-mussels/mussels/Assets/Materials/mussel_shell_left_smoothed.ma"`)
+if (`file -q -exists "/Users/chuck/Desktop/DT FALL 2016/BUILDING WORLD/pot-of-mussels/mussels/Assets/mussel_shell_left_smoothed.ma"`)
 {		
-	file -o "/Users/chuck/Desktop/DT FALL 2016/BUILDING WORLD/pot-of-mussels/mussels/Assets/Materials/mussel_shell_left_smoothed.ma";
+	file -o "/Users/chuck/Desktop/DT FALL 2016/BUILDING WORLD/pot-of-mussels/mussels/Assets/mussel_shell_left_smoothed.ma";
 	FBXExportEmbeddedTextures -v false;
 	// FBXExportHardEdges -v true;
 	FBXExportApplyConstantKeyReducer -v false;
